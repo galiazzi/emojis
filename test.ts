@@ -7,5 +7,5 @@ Deno.test({
   name: "toUtf8",
   fn() {
     assertEquals("test 🤝 \n 🤝", toUtf8("test :handshake: \n :handshake:"));
-  }
-})
+  },
+});
