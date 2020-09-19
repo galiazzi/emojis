@@ -1,5 +1,13 @@
 const emojis: { [key: string]: string } = {
   "handshake": "🤝",
+  "clap": "👏",
+  "thumbsup": "👍'",
+  "thumbsdown": "👎",
+  "punch": "👊",
+  "grinning": "😃",
+  "grin": "😄",
+  "joy": "😂",
+  "face_with_raised_eyebrow": "🤨"
 };
 
 export function toUtf8(text: string): string {
